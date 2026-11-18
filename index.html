@@ -58,6 +58,7 @@
 <a class="font-head text-[20px] font-semibold uppercase text-white py-2" href="dokumenty.html">Документы</a>
 <a class="font-head text-[20px] font-semibold uppercase text-white py-2" href="index.html#voprosy">Вопросы</a>
 <a class="font-head text-[20px] font-semibold uppercase text-white py-2" href="kontakty.html">Контакты</a>
+<a class="font-head text-[20px] font-semibold uppercase text-white py-2" href="kp.html">Мгновенное КП</a>
 <a class="font-mono text-[14px] text-[#C5C6CC] py-2" href="tel:+375162517308">+375 162 51-73-08</a>
 </div>
 </nav>
@@ -74,8 +75,9 @@
 <div class="max-w-4xl my-auto py-8 space-y-5">
 <h1 class="font-head font-bold uppercase text-[38px] leading-[1.05] sm:text-[52px] lg:text-[68px] lg:leading-[1.02] tracking-tight text-balance">Международные грузоперевозки из Бреста в Россию, Казахстан, Среднюю Азию и из Китая</h1>
 <p class="text-[17px] md:text-[18px] leading-relaxed text-[#C5C6CC] max-w-2xl">ООО «Бугтракт» работает с 2014 года. У нас 28 своих тягачей Euro 6, склад в Бресте и перегрузка грузов из ЕС в 15 км от Козловичей. Ставку называем за 30 минут в рабочее время. После погрузки она меняется только по причинам, которые перечислены в договоре-заявке.</p>
-<div class="flex flex-col sm:flex-row gap-3 pt-2">
+<div class="flex flex-col sm:flex-row flex-wrap gap-3 pt-2">
 <a class="inline-flex items-center justify-center bg-[#E8641B] hover:bg-[#C74E00] text-white font-head text-[22px] font-semibold uppercase tracking-wider px-8 h-14" href="#raschet">Рассчитать перевозку</a>
+<a class="inline-flex items-center justify-center border border-[#E8641B] hover:bg-[#C74E00] text-white font-head text-[22px] font-semibold uppercase tracking-wider px-7 h-14" href="kp.html">КП за минуту</a>
 <span class="inline-flex items-center justify-center gap-2 border border-white/20 text-white/60 font-head text-[22px] font-semibold uppercase tracking-wider px-7 h-14 cursor-not-allowed" aria-disabled="true" title="Демо-сайт: ссылка отключена"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 3 3 10.5l7 2.5 2.5 7L21 3z"/><path d="m10 13 4-4"/></svg>Написать в Telegram<span class="demo-badge">демо</span></span>
 </div>
 </div>
@@ -208,9 +210,21 @@
 </div>
 </section>
 
+<section id="kp" class="bg-white py-12 md:py-16 border-b border-[#E2DFD7] scroll-mt-24">
+<div class="max-w-[1100px] mx-auto px-4 md:px-10">
+<div class="bg-[#16191D] border border-[#E8641B] p-6 sm:p-10 space-y-4">
+<div class="eyebrow !text-[#E8641B]">Мгновенное КП</div>
+<h2 class="h2 !text-white">Рассчитать и получить КП за минуту</h2>
+<p class="text-[16px] md:text-[18px] leading-relaxed text-[#C5C6CC] max-w-3xl">Заявка с сайта сразу превращается в коммерческое предложение: вилка цены, срок доставки и PDF на бланке «Бугтракт». Копия уходит менеджеру.</p>
+<p class="font-mono text-[12px] text-[#8E959E]">демо-расчёт · тарифы в одном конфиге, без платных карт</p>
+<div class="pt-2"><a class="inline-flex items-center justify-center bg-[#E8641B] hover:bg-[#C74E00] text-white font-head text-[22px] font-semibold uppercase tracking-wider px-8 h-14" href="kp.html">Получить КП</a></div>
+</div>
+</div>
+</section>
+
 <section id="raschet" class="bg-[#16191D] text-white py-12 md:py-16 scroll-mt-24">
 <div class="max-w-[1100px] mx-auto px-4 md:px-10">
-<div class="text-center max-w-3xl mx-auto mb-8 space-y-2"><div class="eyebrow !text-[#E8641B]">08 / Заявка</div><h2 class="h2 !text-white">Рассчитать перевозку</h2><p class="text-[16px] text-[#C5C6CC]">Заполните то, что знаете. Остальное логист уточнит сам.</p></div>
+<div class="text-center max-w-3xl mx-auto mb-8 space-y-2"><div class="eyebrow !text-[#E8641B]">08 / Заявка</div><h2 class="h2 !text-white">Рассчитать перевозку</h2><p class="text-[16px] text-[#C5C6CC]">Заполните то, что знаете. Остальное логист уточнит сам. Нужна вилка и PDF сразу — <a class="text-[#E8641B] underline underline-offset-2" href="kp.html">рассчитайте КП за минуту</a>.</p></div>
 <form id="quote-form" class="bg-[#121417] border border-[#2A2F35] p-5 sm:p-10 space-y-5" novalidate>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 <div class="field"><label for="f-from">Откуда (город, страна) <span aria-hidden="true">*</span></label><input id="f-from" name="from" type="text" required autocomplete="off" placeholder="Например, Брест, Беларусь" data-err="Укажите город отправления"><p class="err" hidden></p></div>
@@ -243,7 +257,7 @@
 <div class="space-y-3"><div class="font-head text-[24px] font-bold text-white uppercase tracking-wider">Бугтракт</div><p class="text-[14px] leading-relaxed">ООО «Бугтракт», УНП 291284736. Международные грузоперевозки из Бреста в Россию, Казахстан, Среднюю Азию и из Китая.</p></div>
 <div class="space-y-2"><div class="font-head text-[18px] font-semibold text-white uppercase tracking-wide">Контакты</div><p class="text-[14px] text-[#C5C6CC]">г. Брест, ул. Катин Бор, 106/2</p><div class="flex flex-col gap-1 font-mono text-[13px]"><a class="text-[#F3F1EC] hover:text-[#E8641B]" href="tel:+375162517308">+375 162 51-73-08</a><a class="text-[#F3F1EC] hover:text-[#E8641B]" href="mailto:info@bugtrakt.by">info@bugtrakt.by</a></div></div>
 <div class="space-y-2"><div class="font-head text-[18px] font-semibold text-white uppercase tracking-wide">Время работы</div><p class="text-[14px] leading-relaxed">Пн–пт 8:00–19:00, сб 9:00–14:00. Дежурный логист по грузам в пути на связи круглосуточно.</p></div>
-<div class="space-y-2"><div class="font-head text-[18px] font-semibold text-white uppercase tracking-wide">Документы</div><ul class="space-y-1 text-[14px]"><li><a class="hover:text-white underline-offset-2 hover:underline" href="privacy.html">Политика обработки персональных данных</a></li><li><a class="hover:text-white underline-offset-2 hover:underline" href="uslugi.html">Услуги</a></li><li><a class="hover:text-white underline-offset-2 hover:underline" href="dokumenty.html">Документы и страхование</a></li><li><a class="hover:text-white underline-offset-2 hover:underline" href="kontakty.html#rekvizity">Реквизиты</a></li><li><a class="hover:text-white underline-offset-2 hover:underline" href="sitemap.xml">Карта сайта</a></li></ul></div>
+<div class="space-y-2"><div class="font-head text-[18px] font-semibold text-white uppercase tracking-wide">Документы</div><ul class="space-y-1 text-[14px]"><li><a class="hover:text-white underline-offset-2 hover:underline" href="privacy.html">Политика обработки персональных данных</a></li><li><a class="hover:text-white underline-offset-2 hover:underline" href="uslugi.html">Услуги</a></li><li><a class="hover:text-white underline-offset-2 hover:underline" href="dokumenty.html">Документы и страхование</a></li><li><a class="hover:text-white underline-offset-2 hover:underline" href="kontakty.html#rekvizity">Реквизиты</a></li><li><a class="hover:text-white underline-offset-2 hover:underline" href="kp.html">Мгновенное КП</a></li><li><a class="hover:text-white underline-offset-2 hover:underline" href="sitemap.xml">Карта сайта</a></li></ul></div>
 </div>
 <div class="pt-5 flex flex-col md:flex-row justify-between gap-2 font-mono text-[11px] tracking-wide"><span>© 2014–2026 ООО «Бугтракт»</span><span>Демонстрационный сайт: компания и данные вымышленные</span></div>
 </div>
