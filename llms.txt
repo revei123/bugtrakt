@@ -17,4 +17,5 @@
 - [Документы, страхование и статус груза](https://bugtrakt.vercel.app/dokumenty.html)
 - [Автопарк](https://bugtrakt.vercel.app/avtopark.html)
 - [Контакты и реквизиты](https://bugtrakt.vercel.app/kontakty.html)
+- [Мгновенное коммерческое предложение](https://bugtrakt.vercel.app/kp.html)
 - [Политика обработки персональных данных](https://bugtrakt.vercel.app/privacy.html)

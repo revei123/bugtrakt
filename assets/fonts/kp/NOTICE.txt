@@ -1,0 +1,4 @@
+Roboto (subset: Latin, Cyrillic, punctuation used in the quote PDF)
+Copyright 2011 Google Inc.
+Licensed under the Apache License, Version 2.0.
+Source: https://github.com/googlefonts/roboto
